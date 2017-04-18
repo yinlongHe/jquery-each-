@@ -7,7 +7,8 @@
   ##### 下面提一下each的几种常用的用法
   
   each处理一维数组
-  ```    var arr1 = [ "aaa", "bbb", "ccc" ];      
+  ```    
+        var arr1 = [ "aaa", "bbb", "ccc" ];      
         $.each(arr1, function(i,val){      
             alert(i);   
             alert(val);
