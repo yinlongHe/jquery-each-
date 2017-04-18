@@ -12,8 +12,10 @@
             alert(i);   
             alert(val);
         }); 
-***
+
 
 alert(i)将输出0，1，2
 
 alert(val)将输出aaa，bbb，ccc
+
+***
