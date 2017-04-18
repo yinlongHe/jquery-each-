@@ -6,8 +6,8 @@
 
   ##### 下面提一下each的几种常用的用法
   
-   1、each处理一维数组
-  
+   each处理一维数组
+
         var arr1 = [ "aaa", "bbb", "ccc" ];      
         $.each(arr1, function(i,val){      
             alert(i);   
@@ -19,13 +19,15 @@
    alert(val)将输出aaa，bbb，ccc
 
   
-   2、each处理二维数组
-    
-       var arr2 = [['a', 'aa', 'aaa'], ['b', 'bb', 'bbb'], ['c', 'cc', 'ccc']];      
-　      $.each(arr2, function(i, item){      
-           alert(i);   
-           alert(item);      
-　　     });  
+   each处理二维数组
+ 
+        
+        var arr2 = [['a', 'aa', 'aaa'], ['b', 'bb', 'bbb'], ['c', 'cc', 'ccc']]; 
+        $.each(arr2, function(i, item){
+            alert(i);
+            alert(item);
+        });  
+      
   
    arr2为一个二维数组，item相当于取这二维数组中的每一个数组。
 
